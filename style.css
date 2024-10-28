@@ -1,0 +1,122 @@
+/* Mobile first: мобильная версия */
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%;
+}
+
+/* Шапка */
+.header {
+    background-color: #F4DBDB;
+    padding: 20px;
+}
+
+.header-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.menu-btns a {
+    border-color:#CD4662 ;
+    background-color: #CD4662;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.menu-btns a:hover {
+    border-color:#CD4662 ;
+    background-color: #F4DBDB;
+    color: #CD4662;
+}
+
+/* Основной контент */
+.content {
+    background-color: #F4F2EF;
+    padding: 20px;
+}
+
+/* Заголовки */
+h3 {
+    background-color: #AEC289;
+    padding-left: 25px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 15px;
+    font-size: 22px;
+}
+
+/* Таблица */
+.table {
+    margin-top: 25px;
+    border: 2px solid #CD4662;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #F4DBDB;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #F4F2EF;
+}
+
+.table td {
+    border: 2px solid #CD4662;
+}
+
+/* Ссылки */
+.s a {
+    text-decoration: none;
+    color: #000;
+}
+
+.s a:hover {
+    text-decoration: none;
+    color: #CD4662;
+}
+
+/* Footer */
+.footer {
+    background-color: #F4DBDB;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+/* Медиазапрос для больших экранов (больше 1000px) */
+@media (min-width: 800px) {
+
+    .header {
+        padding: 30px;
+    }
+
+    .header-title {
+        font-size: 24px;
+    }
+
+    .content {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .s{
+        order: 1;
+    }
+
+    .table {
+        order: 2;
+    }
+
+    .forms{
+        order: 3;
+    }
+}
