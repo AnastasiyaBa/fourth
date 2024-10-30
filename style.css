@@ -98,15 +98,4 @@ h3 {
         padding: 30px;
     }
 
-    .s{
-        order: 1;
-    }
-
-    .table {
-        order: 2;
-    }
-
-    .forms{
-        order: 3;
-    }
 }
