@@ -1,16 +1,12 @@
 /* Mobile first: мобильная версия */
 body {
     font-family: "Montserrat", sans-serif;
-    margin: 0;
-    padding: 0;
     font-size: 20px;
-    width: 100%;
 }
 
 /* Шапка */
 .header {
     background-color: #F4DBDB;
-    padding: 20px;
 }
 
 .header-title {
@@ -35,22 +31,17 @@ body {
 /* Основной контент */
 .content {
     background-color: #F4F2EF;
-    padding: 20px;
 }
 
 /* Заголовки */
 h3 {
     background-color: #AEC289;
-    padding-left: 25px;
-    padding-top: 3px;
-    padding-bottom: 3px;
     border-radius: 15px;
     font-size: 22px;
 }
 
 /* Таблица */
 .table {
-    margin-top: 25px;
     border: 2px solid #CD4662;
 }
 
@@ -80,7 +71,6 @@ h3 {
 /* Footer */
 .footer {
     background-color: #F4DBDB;
-    padding: 20px;
     text-align: left;
     display: flex;
     align-items: center;
