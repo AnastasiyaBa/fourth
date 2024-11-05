@@ -1,0 +1,89 @@
+
+
+/* Mobile first: мобильная версия */
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+/* Шапка */
+.header {
+    background-color: #F4DBDB;
+    padding: 20px;
+}
+
+.header-title {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.menu-btns a {
+    border-color:#CD4662 ;
+    background-color: #CD4662;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.menu-btns a:hover {
+    border-color:#CD4662 ;
+    background-color: #F4DBDB;
+    color: #CD4662;
+}
+
+/* Заголовки */
+h3 {
+    background-color: #AEC289;
+    border-radius: 15px;
+    font-size: 22px;
+}
+
+/* Таблица */
+.table {
+    border: 2px solid #CD4662;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #F4DBDB;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #F4F2EF;
+}
+
+.table td {
+    border: 2px solid #CD4662;
+}
+
+/* Ссылки */
+.s a {
+    text-decoration: none;
+    color: #000;
+}
+
+.s a:hover {
+    text-decoration: none;
+    color: #CD4662;
+}
+
+/* Footer */
+.footer {
+    background-color: #F4DBDB;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+
+@media (min-width: 800px) {
+
+    .header-title {
+        font-size: 30px;
+    }
+
+    body{
+        font-size: 25px;
+    }
+}
